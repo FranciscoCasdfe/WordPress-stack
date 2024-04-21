@@ -45,8 +45,3 @@ MySQL server just run:
 ```console
 $ docker-compose up -d
 ```
-
-_NOTE_: If you are using docker compose, remember that the image built from the
-above `Dockerfile` already includes nginx and it's accessible on port 8080. For
-customizing the environment also check
-[https://github.com/bitpoke/stack-runtimes/tree/master/php#php-runtime](https://github.com/bitpoke/stack-runtimes/tree/master/php#php-runtime).
